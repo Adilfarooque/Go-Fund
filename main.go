@@ -1,6 +1,8 @@
 package main
 
-import addvalueintospecificpostion "BasiWorld/Addvalueintospecificpostion"
+import (
+	deletespecifcposition "BasiWorld/Deletespecifcposition"
+)
 
 func main() {
 	// Declare an array of size n.
@@ -53,5 +55,6 @@ func main() {
 	//oddandeven.OddOrEven()
 	//sorteleascendingorder.AscedingOrder()
 	//sortdescending.SortDescending()
-	addvalueintospecificpostion.Position()
+	//addvalueintospecificpostion.Position()
+	deletespecifcposition.Delete()
 }
